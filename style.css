@@ -1,0 +1,157 @@
+body{background-color:rgba(168, 166, 166, 0.8);
+    padding: 0;}
+
+.home-hero-wrapper {
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    padding: 0;
+    background-position: 100% 20%;
+    background-repeat: no-repeat;
+    background-image: url("blue.JPG")
+}
+
+.home-hero{
+    width: auto;
+}
+
+
+h1 {text-align: center;
+color:#0033a3;
+padding: 0;
+font-size: 50px;
+font-family: montserrat;
+font-weight: 100px;
+}
+
+.centered {
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);}
+
+h2 {color:#0033a3;
+text-align: center;
+font-family: montserrat, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.roller
+{
+    width: 800px;
+    height: 200px;
+}
+.roller img
+{
+    float: left;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;   
+    -webkit-transition: 1s Ease;
+}
+.roller:hover img
+{
+    -webkit-transform: translate(630px, 0px) rotate(360deg);
+}
+
+.author p {text-align: center;
+color:#0033a3;
+}
+
+.para p {text-align: center;
+max-width: 70ch;
+display: flex;
+margin: auto;
+}
+
+h5 {text-align: center;
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    max-width: 70ch;
+    margin: auto;
+    margin-top: 30px;
+    font-style: normal;
+}
+sub {text-align: center;}
+
+h3 {color:#0033a3;
+text-align: center;
+font-family: montserrat, sans-serif;
+font-weight: 800;
+font-style: normal;
+}
+
+a:visited {
+    color: #0033a3;
+}
+
+p {font-family: montserrat, sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    font-style: normal;
+    text-align: center;
+}
+.list{
+align-items: center;
+}
+nav{
+    max-width: 60vw;    
+    margin:30px auto;
+}
+
+.navlink {
+    width: 33.333%;
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+.fanapparel ul {
+    text-align: center;
+    list-style-type: none;
+    font-family: montserrat, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    padding: 0;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    border-radius: 10px;
+}
+
+.list ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0033a3;}
+  
+ .list li {
+    float: left;}
+  
+ .list li a {
+    display: block;
+    color: #d64309;
+    text-align: 1000px;
+    padding: 14px 16px;
+    text-decoration: none;}
+  .list li a:hover {
+    background-color: white;}
+
+ul {text-align: center;}
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60vw; 
+    margin-top: 80px;
+}
+
