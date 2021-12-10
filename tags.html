@@ -1,42 +1,132 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<title>Media</title>
-</head>
-<body>
-<h3>My Tags Page</h3> 
-<header><h1>Boise State Football - Games On The Blue</h1></header>
-  </head>
-    <body>
-    <!--Put in line break to seperate title from rest of article.-->
-    <h2>How To Prepare For Home Games On The Blue</h2>
-    <p><b>By Stuart Tregenza</b></p>
-    <p>The first and most important way to prepare ones self for
-        a Boise State home game is to get a ticket. To do this 
-        students must visit broncosports.com then follow a link at
-        the top of the page to ticketmaster.com. Here, students will
-        plug in the PROMO code "STUDENT" and booom, theres a free 
-        ticket to the BSU home game.
-        <h5>Terms & Conditions: Only full-time BSU students are
-            eligible for free studnet tickets, part-time students 
-            get discounted tickets. While supplies last, ticket sales 
-            are based off of a first come, first serve basis.
-        </h5>
-        <!--Terms and Conditions seemed like a cool thing to add,
-        would definetly be in a professional article like this-->
-        
-        
-        <sub>-This is the BSU ticketmaster site @ <link>https://am.ticketmaster.
-            com/boisestateathl/</sub>
-    <!--Took a screenshot of my BSU TicketMaster portal, showing what
-    the page actually looks like.-->
-    <br>
-    <br>
-    </h3><b>Home Team Spirit</b></h3> 
-    <p>Many games throughout the season have themes like "White-Out"
-        or "Black-Out" which are awesome but as long as fans wear 
-        BSU gear or blue and orange they'll fit in with the crowd.
-    </p>
-    </h3><b>Fan Apparel & Where To It Up - </b> <link>https://www.broncoshop.com/</h3>
-</body>
-</html>
+    <html>
+    <title>S2's Pictures</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;800&display=swap" 
+    rel="stylesheet">   
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+    <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+      <a href="index.html" class="w3-bar-item w3-button"><b>STUART</b> TREGENZA</a>
+      <!-- Float links to the right. Hide them on small screens -->
+      <div class="w3-right w3-hide-small">
+        <a href="tags.html" class="w3-bar-item w3-button">PICTURES</a>
+        <a href="media.html" class="w3-bar-item w3-button">MEDIA</a>
+        <a href="nested.html" class="w3-bar-item w3-button">INSPIRE</a>
+      </div>
+    </div>
+  </div>
+  <style>
+    body {
+      background-image: url("paint-exture.jpeg");
+      background-repeat: no-repeat;
+    }
+    </style>
+
+  <!-- SlideShow Start -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  
+  </style>
+  <body>
+  
+  <h2 style="text-align:center">Slideshow Gallery</h2>
+  
+  <div class="container">
+    <div class="mySlides">
+      <div class="numbertext">1 / 6</div>
+      <img src="DJI_0076.JPG" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">2 / 6</div>
+      <img src="DJI_0005 (2).JPG" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">3 / 6</div>
+      <img src="DJI_0009.JPG" style="width:100%">
+    </div>
+      
+    <div class="mySlides">
+      <div class="numbertext">4 / 6</div>
+      <img src="DJI_0013 (2).JPG" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">5 / 6</div>
+      <img src="DJI_0052.JPG" style="width:100%">
+    </div>
+      
+    <div class="mySlides">
+      <div class="numbertext">6 / 6</div>
+      <img src="shark.jpg" style="width:100%">
+    </div>
+      
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+  
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+  
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="DJI_0076.JPG" style="width:100%" onclick="currentSlide(1)" alt="Hawaii ">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="DJI_0005 (2).JPG" style="width:100%" onclick="currentSlide(2)" alt="Mountain Roads">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="DJI_0009.JPG" style="width:100%" onclick="currentSlide(3)" alt="The Bluffs">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="DJI_0013 (2).JPG" style="width:100%" onclick="currentSlide(4)" alt="Central Coast">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="DJI_0052.JPG" style="width:100%" onclick="currentSlide(5)" alt="Rocky Sunset">
+      </div>    
+      <div class="column">
+        <img class="demo cursor" src="shark.jpg" style="width:100%" onclick="currentSlide(6)" alt="Sharky Water">
+      </div>
+    </div>
+  </div>
+  
+  <script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("demo");
+    var captionText = document.getElementById("caption");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    captionText.innerHTML = dots[slideIndex-1].alt;
+  }
+  </script>
+      
+  </body>
+  </html>
